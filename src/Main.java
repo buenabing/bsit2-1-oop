@@ -37,8 +37,8 @@ public class Main {
         System.out.println("Student Information:");
         System.out.println("ID: " + student.studentId);
         System.out.println("Name: " + student.firstName + " " + student.lastName);
-        System.out.println("Course: " + student.course);
-        System.out.println("Section: " + student.section);
+        System.out.println("Course & Section: " + student.course + "-" + student.section);
+        System.out.println("Course: " + student.section);
 
         System.out.println();
 
