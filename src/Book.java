@@ -1,10 +1,10 @@
 public class Book {
-    String bookTitle = ""; // Changed the name to "bookTitle" from "bookTittle"
+    String bookTitle = "";
     String author = "";
     int pages = 0;
     boolean isAvailable = false;
 
-    // Constructor now correctly takes a boolean for isAvailable
+
     public Book(String title, String authorOfBook, int pagesOfBook, boolean isBookAvailable) {
         bookTitle = title;
         author = authorOfBook;
