@@ -12,6 +12,12 @@ public class Book {
         isAvailable = isBookAvailable;
     }
 
+    public void displayBookInfo(){
+        System.out.println("Title: " + bookTitle);
+        System.out.println("Author: " + author);
+        System.out.println("Number of pages: " + pages);
+    }
+
     public void checkIfBookIsAvailable() {
         if (isAvailable) {
             System.out.println("Book is available");
